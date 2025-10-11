@@ -20,7 +20,7 @@ Add one of these statements to your documentation, website, or privacy policy:
 > "This software complies with the Software Safety Consent Declaration."
 
 **Detailed version:**
-> "This project follows Level [1/2/3] of the Software Safety Consent Declaration, ensuring transparent security and privacy practices. [View the full policy](https://github.com/yahiagaming495/Software-Safety-Consent-Declaration)."
+> "This project follows Level [1/2/3] of the Software Safety Consent Declaration, ensuring transparent security and privacy practices. [View the full policy](https://github.com/yahiagaming495/Software-Safety-Consent-Declaration/blob/main/SSCD)."
 
 ### Step 3: Choose Your Compliance Level
 
