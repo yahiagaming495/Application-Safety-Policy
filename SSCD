@@ -110,7 +110,7 @@ C. All privacy-releated actions must be documented in the application
 
 A. All applications must clearly state what data is being logged
 
-B. All applications must inform and get the user's aggrement to collect the specified data (as stated in 9(A) )
+B. All applications must inform and get the user's aggrement to collect the specified data
 
 C. Logs must not include personal user's data or sensitive data.
 
