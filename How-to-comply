@@ -4,6 +4,7 @@ A. To declare compliance with the Software Safety & Consent Declaration (SSCD), 
 This can be done by:
  1. Creating a file named SSCD.txt, SSCD.md, or similar within the project directory, or
  2. Including the full policy text in the application's “About” or “Legal” section.
+ 3. You may also put a badge on the site ([![SSCD Compliant](https://img.shields.io/badge/SSCD-Compliant-brightgreen)](https://github.com/yahiagaming495/Software-Safety-Consent-Declaration))
 
 B. This policy must remain unmodified. Any changes, edits, or removals of text will result in immediate revocation of compliance.
 
