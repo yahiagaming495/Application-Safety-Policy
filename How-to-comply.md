@@ -9,7 +9,7 @@ Adopting the Software Safety Consent Declaration is simple and demonstrates your
 Copy and paste this into your project's README.md file:
 
 ```markdown
-[![SSCD Compliant](https://img.shields.io/badge/SSCD-Level_1-2EA043?logo=shield-check)](https://github.com/yahiagaming495/Software-Safety-Consent-Declaration)
+[![SSCD Compliant](https://img.shields.io/badge/SSCD-Compliant-green?logo=shield)](https://github.com/yahiagaming495/Software-Safety-Consent-Declaration)
 ```
 
 ### Step 2: Reference the Policy
