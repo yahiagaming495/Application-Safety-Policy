@@ -1,0 +1,172 @@
+Software Safety & Consent Declaration (SSCD)
+Version: 1.0
+Author/owner: Yehia Loay
+License: No license, All rights reserved 
+
+
+Purpose:
+This document is used as an security or safety template for developers to use
+
+Defentions:
+
+When we refer to “User approval” or “User permission,” we mean that the user has given explicit consent through a popup, textbox, or any other method that can be used to obtain user consent.
+
+
+Terms:
+
+
+1. Network connections (T1.1)
+
+Do not create or maintain network connections without explicit user approval
+
+You or your application shall not create, maintain or store network connections except when at least one of these conditions is met:
+
+
+A. The user sends a network connection or "message" by connecting to the server(s) of the application(s) (e.g., when the user sends a message...). 
+
+B. The network connection is essential or a part of the application (“e.g., when the user sends a message...”).
+
+C. No personal or system data is transmitted through the network connection
+
+D. The user can easily opt out of the connection using a clearly visible option within the application.
+
+These terms are considered completely violated if:
+
+1. Your application sends/stores personal data or system data
+
+2. The user cannot opt-out or the application is hard for any user to opt-out 
+
+
+
+2. Data (T2.1)
+
+
+A. User data or system data must not be processed without explicit user permission.
+
+User data such as files, folders, text files, etc. must not be processed or stored without explicit user permission
+
+B. Passwords and tokens must be encrypted and not stored as plain text.
+
+User(s) password(s) or token(s) must be encrypted 
+
+C. Temporary data must be deleted when no longer needed.
+
+
+
+3. User privacy (T3.1)
+
+A. The service provider(s) must notify the user(s) of the application(s) in case of a data breach.
+
+The service provider(s) must notify all users in case of a data breach within 24 hours
+The same applies if the service(s) were/was hacked
+
+B. The service(s) must not store, track or identify user data
+
+The service(s) must not store or track user(s) data without user consent
+User data in this section includes (but are not limited to): User ip, location, tracking id, etc.
+
+C. Users must be able to view and delete all collected data.
+
+User(s) of the service(s) must be able to delete all collected data
+Collected data means all data that the service(s) collected only about the user
+
+D. No hidden telemetry or analytics systems are allowed unless clearly stated and accepted by the user.
+
+
+
+4. Device access (T4.1)
+
+A. Access to system resources such as (camera, microphone, location, GPS, etc.) must require explicit user consent
+
+B. Applications must not request access to hardware that are unrelated to their function
+
+C. The user must be able to delete the app or revoke all permissions requested by the app
+
+
+5. File downloads (T5.1)
+
+A. Applications must not download or execute files without user consent
+
+B. Users must have the option to disable automatic file downloads
+
+
+6. Execution (T6.1)
+
+A. Applications must not modify system files (such as registries, configurations, or any kind of system files) or configurations without consent
+
+B. Executing scripts, shell commands, or background activites must require consent and knowledge from the user
+
+C. Self-replicating or self-modifying behavior is strictly prohibited.
+
+
+7. Data collection (T7.1)
+
+A. The developer(s) of the application(s) must clearly state what data is collected, stored, or transmitted
+
+B. The user must be informed if any third-party libraries or services are used.
+
+C. All privacy-releated actions must be documented in the application
+
+8. Monitoring or logging (T8.1)
+
+A. All applications must clearly state what data is being logged
+
+B. All applications must inform and get the user's aggrement to collect the specified data (as stated in 9(A) )
+
+C. Logs must not include personal user's data or sensitive data.
+
+D. The user must be able to delete all logs at any time in both sides, The application server(s) side and the user's side
+
+
+9. Third-party integration (T9.1)
+
+A. All external services must follow the same privacy requirements (stated in this whole document)
+
+B. Developers are responsible for ensuring compliance of all integrated dependencies.
+
+
+10. End of Support / Discontinuation (T10.1)
+
+A. If the application becomes unsupported, it must notify users before shutdown.
+B. All stored data should be safely deleted or exportable by the user.
+C. No new background activity or data collection should continue after discontinuation.
+
+11. Compliance and Enforcement (T11.1)
+
+A. Applications violating any SSCD terms may be blacklisted or removed from the SSCD registry.
+B. Developers must regularly verify that their applications comply with this declaration.
+C. Any discovered violation must be reported and corrected within a reasonable timeframe.
+
+
+Disclaimer of Liability: (D1.2)
+
+This declaration is provided “as is.”  
+The author(s) are not responsible for third-party misuse or false claims of compliance.
+
+Using this security policy means that you agree to all the terms and conditions stated in this document.
+Third-party misuse will result in your application being revoked.
+
+We (the authors) have the right to place you on a list or document and revoke your software safety policy (our policy), If your application (the developer’s application) violates one or more rules stated in this document while claiming compliance with this policy, We have the right to blacklist you or place you on the official SSCD registry.
+
+How to Comply and Use This Policy
+
+A. To declare compliance with the Software Safety & Consent Declaration (SSCD), developers must include this policy in their project’s documentation.
+This can be done by:
+ 1. Creating a file named SSCD.txt, SSCD.md, or similar within the project directory, or
+ 2. Including the full policy text in the application's “About” or “Legal” section.
+
+B. This policy must remain unmodified. Any changes, edits, or removals of text will result in immediate revocation of compliance.
+
+C. Applications using this declaration must reference the original version and author clearly as follows:
+ > “Complies with the Software Safety & Consent Declaration (SSCD) — Version 1.0, authored by Yahia Loay.”
+
+D. The SSCD mark or mention may only be used if all terms are respected and the document remains intact.
+
+Copyright Notice
+
+© 2025–2026 Yahia Loay.
+Some portions of this document were developed with the assistance of AI tools, while others were written by humans.
+All editing, structure, and final content were reviewed and approved by the author.
+
+Permission is granted to share unmodified copies of this document with proper attribution.
+Modifications or derivative works are prohibited without explicit written consent.
