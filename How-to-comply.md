@@ -10,7 +10,6 @@ Add the badge [here](https://github.com/yahiagaming495/Software-Safety-Consent-D
 
 Add this statement to your documentation, website, or privacy policy:
 
-**Detailed version:**
 > "This project follows the Software Safety Consent Declaration, ensuring transparent security and privacy practices. [View the full policy](https://github.com/yahiagaming495/Software-Safety-Consent-Declaration/blob/main/SSCD)."
 
 
