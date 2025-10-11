@@ -91,7 +91,7 @@ B. Users must have the option to disable automatic file downloads
 
 6. Execution (T6.1)
 
-A. Applications must not modify system files (such as registries, configurations, or any kind of system files) or configurations without consent
+A. Applications must not modify system files (such as registries, configurations, or any kind of system files) without consent
 
 B. Executing scripts, shell commands, or background activites must require consent and knowledge from the user
 
