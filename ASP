@@ -1,6 +1,6 @@
-Application Safety License (ASL)
+Application Safety Policy (ASP)
 Version: 1.0
-Author/owner: Yehia Loay
+Author/owner: Yahia Loay
 
 Definitions:
 
@@ -137,6 +137,7 @@ This license is provided “as is.”
 Using this security policy means that you agree to all the terms and conditions stated in this document.
 Breaking the rules of this license while claiming that you agree to all these rules (by adding this license to your application) may result in your application being revoked
 
+[Application Safety Policy](https://github.com/yahiagaming495/Application-Safety-Policy) © 2025 by [Yahia Loay](https://github.com/yahiagaming495/) is licensed under CC BY-NC-ND 4.0
 
 --------How to comply---------
 To comply with this license you must add this license including this section and all sections to your program's "About" or "Legal" section
