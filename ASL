@@ -1,14 +1,10 @@
-Software Safety & Consent Declaration (SSCD)
+Application Safety License (ASL)
 Version: 1.0
 Author/owner: Yehia Loay
 
-
-Purpose:
-This document is used as an security or safety template for developers to use
-
 Defentions:
 
-When we refer to “User approval” or “User permission,” we mean that the user has given explicit consent through a popup, textbox, or any other method that can be used to obtain user consent.
+When we refer to “User approval” or “User permission”, we mean that the user has given explicit consent through a popup, textbox, or any other method that can be used to obtain user consent.
 
 
 Terms:
@@ -34,7 +30,6 @@ These terms are considered completely violated if:
 1. Your application sends/stores personal data or system data
 
 2. The user cannot opt-out or the application is hard for any user to opt-out 
-
 
 
 2. Data (T2.1)
@@ -91,7 +86,7 @@ B. Users must have the option to disable automatic file downloads
 
 6. Execution (T6.1)
 
-A. Applications must not modify system files (such as registries, configurations, or any kind of system files) without consent
+A. Applications must not modify system files (such as registries, configurations, or any kind of system file) without consent from the user
 
 B. Executing scripts, shell commands, or background activites must require consent and knowledge from the user
 
@@ -106,66 +101,42 @@ B. The user must be informed if any third-party libraries or services are used.
 
 C. All privacy-releated actions must be documented in the application
 
+
 8. Monitoring or logging (T8.1)
 
 A. All applications must clearly state what data is being logged
 
 B. All applications must inform and get the user's aggrement to collect the specified data
 
-C. Logs must not include personal user's data or sensitive data.
+C. Logs must not include personal user's data or sensitive data or sensitive system data.
 
-D. The user must be able to delete all logs at any time in both sides, The application server(s) side and the user's side
+D. The user must be able to delete all logs at any time 
 
 
 9. Third-party integration (T9.1)
 
 A. All external services must follow the same privacy requirements (stated in this whole document)
 
-B. Developers are responsible for ensuring compliance of all integrated dependencies.
+B. Developers are responsible for ensuring that the integrated dependencies follow this document.
 
 
-10. End of Support / Discontinuation (T10.1)
+10. End of Support (T10.1)
 
-A. If the application becomes unsupported, it must notify users before shutdown.
-B. All stored data should be safely deleted or exportable by the user.
+A. If the application becomes unsupported, The application must notify users before shutdown.
+B. If the application is a save-storage application (An application that allows it's users to store their data on the application), All the user's data on the application should be exportable
 C. No new background activity or data collection should continue after discontinuation.
 
-11. Compliance and Enforcement (T11.1)
+11. Enforcment (T11.1)
 
-A. Applications violating any SSCD terms may be blacklisted or removed from the SSCD registry.
-B. Developers must regularly verify that their applications comply with this declaration.
-C. Any discovered violation must be reported and corrected within a reasonable timeframe.
+A. We have the right to take action against if your application does not follow these rules while claiming it does (Adding this license to the program)
 
+-----------LEGAL--------------
+This license is provided “as is.”  
 
-Disclaimer of Liability: (D1.2)
-
-This declaration is provided “as is.”  
-The author(s) are not responsible for third-party misuse or false claims of compliance.
 
 Using this security policy means that you agree to all the terms and conditions stated in this document.
-Third-party misuse will result in your application being revoked.
+Breaking the rules of this license while claiming that you agree to all these rules (by adding this license to your application) may result in your application being revoked
 
-We (the authors) have the right to place you on a list or document and revoke your software safety policy (our policy), If your application (the developer’s application) violates one or more rules stated in this document while claiming compliance with this policy, We have the right to blacklist you or place you on the official SSCD registry.
 
-How to Comply and Use This Policy
 
-A. To declare compliance with the Software Safety & Consent Declaration (SSCD), developers must include this policy in their project’s documentation.
-This can be done by:
- 1. Creating a file named SSCD.txt, SSCD.md, or similar within the project directory, or
- 2. Including the full policy text in the application's “About” or “Legal” section.
 
-B. This policy must remain unmodified. Any changes, edits, or removals of text will result in immediate revocation of compliance.
-
-C. Applications using this declaration must reference the original version and author clearly as follows:
- > “Complies with the Software Safety & Consent Declaration (SSCD) — Version 1.0, authored by Yahia Loay.”
-
-D. The SSCD mark or mention may only be used if all terms are respected and the document remains intact.
-
-Copyright Notice
-
-© 2025–2026 Yahia Loay.
-Some portions of this document were developed with the assistance of AI tools, while others were written by humans.
-All editing, structure, and final content were reviewed and approved by the author.
-
-Permission is granted to share unmodified copies of this document with proper attribution.
-Modifications or derivative works are prohibited without explicit written consent.
