@@ -2,7 +2,7 @@ Application Safety License (ASL)
 Version: 1.0
 Author/owner: Yehia Loay
 
-Defentions:
+Definitions:
 
 When we refer to “User approval” or “User permission”, we mean that the user has given explicit consent through a popup, textbox, or any other method that can be used to obtain user consent.
 
