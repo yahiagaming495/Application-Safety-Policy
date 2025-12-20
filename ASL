@@ -138,5 +138,9 @@ Using this security policy means that you agree to all the terms and conditions 
 Breaking the rules of this license while claiming that you agree to all these rules (by adding this license to your application) may result in your application being revoked
 
 
+--------How to comply---------
+To comply with this license you must add this license including this section and all sections to your program's "About" or "Legal" section
+If the application is a CLI-application, You must create a command (e.g. "show legal") that shows this whole license including all sections (Legal and how-to-comply section included)
+You must also mention this command in an easily-visible-to-the-user way (e.g. on program startup, whether GUI or CLI)
 
 
